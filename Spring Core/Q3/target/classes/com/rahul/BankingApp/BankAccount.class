@@ -1,4 +1,4 @@
-Êþº¾   4 J  !com/vunnam/BankingApp/BankAccount  java/lang/Object 	accountId J accountHolderName Ljava/lang/String; accountType accountBalance D <init> ()V Code
+Êþº¾   4 J  !com/rahul/BankingApp/BankAccount  java/lang/Object 	accountId J accountHolderName Ljava/lang/String; accountType accountBalance D <init> ()V Code
     
  LineNumberTable LocalVariableTable this #Lcom/vunnam/BankingApp/BankAccount; )(ILjava/lang/String;Ljava/lang/String;D)V	    	    	   	 	   
   I getAccountId ()J setAccountId (J)V getAccountHolderName ()Ljava/lang/String; setAccountHolderName (Ljava/lang/String;)V getAccountType setAccountType getAccountBalance ()D setAccountBalance (D)V toString / java/lang/StringBuilder 1 BankAccount [accountId=
