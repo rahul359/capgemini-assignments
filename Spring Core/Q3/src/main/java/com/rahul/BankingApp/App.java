@@ -1,9 +1,5 @@
-package com.vunnam.BankingApp;
+package com.rahul.BankingApp;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
