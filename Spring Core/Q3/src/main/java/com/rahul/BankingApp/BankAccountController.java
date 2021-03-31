@@ -1,4 +1,4 @@
-package com.vunnam.BankingApp;
+package com.rahul.BankingApp;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -26,13 +26,13 @@ public class BankAccountController {
 	}
 
 	public double withdraw(long accountId, double balance) {
-		//we use account id if it was in database; no need of id here
+	
 		double amountLeft = account.getAccountBalance()-balance;
 		account.setAccountBalance(amountLeft);
 		return amountLeft;
 	}
 	public double deposit(long accountId, double balance) {
-		//we use account id if it was in database; no need of id here
+		
 		double totalAmount = account.getAccountBalance()+balance;
 		account.setAccountBalance(totalAmount);
 		return totalAmount;
