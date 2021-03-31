@@ -1,4 +1,4 @@
-package com.vunnam.BankingApp;
+package com.rahul.BankingApp;
 
 public interface BankAccountService {
 	public double withdraw(long accountId, double balance);
