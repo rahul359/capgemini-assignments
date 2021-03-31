@@ -1,0 +1,7 @@
+<beans>
+ 
+    <bean id="demoBean" class="com.priyesh.task.DemoBean"
+                    init-method="customInit"
+                    destroy-method="customDestroy"></bean>
+ 
+</beans>
