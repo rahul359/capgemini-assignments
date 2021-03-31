@@ -1,4 +1,4 @@
-package com.vunnam.BankingApp;
+package com.rahul.BankingApp;
 
 //accountId, accountHolderName, accountType, accountBalance
 public class BankAccount {
