@@ -1,4 +1,4 @@
-package com.vunnam.BankingApp;
+package com.rahul.BankingApp;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
